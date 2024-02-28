@@ -9,6 +9,6 @@ public class main {
     public static void main(String[] args) {
 
         PersonServiceImpl personService = new PersonServiceImpl();
-        System.out.println(personService.getPerson(2));
+        System.out.println(personService.getPerson(1));
     }
 }
